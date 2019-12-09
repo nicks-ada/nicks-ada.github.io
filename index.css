@@ -1,0 +1,85 @@
+/* Setting background to an image */
+body {
+  background-image: url("trees-dark.jpg");
+}
+
+/* Top line set formatting */ 
+h1 {
+  color: whitesmoke;
+  text-align:center;
+  font-family: segoe UI;
+}
+h1:hover {
+  color: black;
+} 
+
+/* Second line formatting */
+h2 {
+  color: whitesmoke;
+  text-align: center;
+  font-family: Segoe UI;
+}
+h2:hover {
+  color: black;
+}
+
+/* Rules section */
+h3 {
+  text-align: center;
+  color: white;
+  font-family: segoe UI;
+}
+
+/* Set up of the button for game page */
+.button1 {
+  background: black;
+  border: none;
+  color: white;
+  font-family: segoe UI;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  font-size: 100%;
+  display: inline-block;
+  margin: 4px;
+  position:absolute;
+  transition: .5s ease;
+  left: 152px;
+  top: 198px;
+}
+
+/* Set up of the button for the rules page */
+.button2 {
+  background: black;
+  border: none;
+  color: white;
+  font-family: segoe UI;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  font-size: 100%;
+  display: inline-block;
+  margin: 4px;
+  position:absolute;
+  transition: .5s ease;
+  left: 552px;
+  top: 198px;
+}
+
+/* Set up of the button for the assets page */
+.button3 {
+  background: black;
+  border: none;
+  color: white;
+  font-family: segoe UI;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  font-size: 100%;
+  display: inline-block;
+  margin: 4px;
+  position:absolute;
+  transition: .5s ease;
+  left: 952px;
+  top: 198px;
+}

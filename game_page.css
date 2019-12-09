@@ -1,0 +1,46 @@
+/* Setting background to an image */
+body {
+    background-image: url("trees-dark.jpg");
+  }
+
+/* Set up of a button design */
+.button {
+    background: black;
+    border: none;
+    color: white;
+    font-family: segoe UI;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    font-size: 100%;
+    display: inline-block;
+    margin: 4px;
+  }
+
+/* Top line set formatting */ 
+h1 {
+  color: whitesmoke;
+  text-align:center;
+  font-family: segoe UI;
+}
+h1:hover {
+  color: black;
+} 
+
+/* Set up for the button that will return to the home page */
+.button1 {
+  background: black;
+  border: none;
+  color: white;
+  font-family: segoe UI;
+  padding: 16px;
+  width: 200px;
+  text-align: center;
+  font-size: 100%;
+  display: inline-block;
+  margin: 4px;
+  position:absolute;
+  transition: .5s ease;
+  left: 0px;
+  top: 0px;
+}

@@ -1,0 +1,11 @@
+    image(rand_emoji1, 320, 240); // Centre emoji
+    image(rand_emoji1, 320, 10); // Top emoji
+    image(rand_emoji2, 320, 490); // Bottom emoji
+    image(rand_emoji3, 10, 240); // Left emoji
+    image(rand_emoji4, 640, 240); // Right emoji
+    // Player 2 side
+    image(emoji_money, 1100, 240); // Centre emoji
+    image(emoji_money, 1100, 10); // Top emoji
+    image(emoji_angry, 1100, 490); // Bottom emoji
+    image(emoji_liar, 760, 240); // Left emoji
+    image(emoji_sick, 1390, 240); // Right emoji

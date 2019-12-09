@@ -1,0 +1,19 @@
+level 1 emoji and key that will be the correct one 
+- emoji_money
+- up arrow for player 2 - 38
+- w key for player 1 - 87
+
+level 2 emoji and key that will be the correct one
+- emoji_sick
+- left arrow for player 2 - 37
+- a key for player 1 - 65
+
+level 3 emoji and key that will be the correct one
+- emoji_liar
+- right arrow for player 2 - 39
+- d key for player 1 - 68
+
+level 4 emoji and key that will be the correct one
+- emoji_angry
+- down arrow for player 2 - 40
+- s key for player 1 - 83
