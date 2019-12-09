@@ -4,6 +4,7 @@ var emoji_angry;
 var emoji_smile;
 var emoji_sick;
 var emoji_liar;
+var mySound;
 var edgeSize = 5;
 var level_1_allow = false;
 var level_2_allow = false;
@@ -54,6 +55,7 @@ function preload () {
     flying_emoji2 = loadImage("emoji_liar_100x100.png");
     flying_emoji3 = loadImage("emoji_angry_100x100.png");
     flying_emoji4 = loadImage("emoji_smile_100x100.png");
+    mySound = loadSound("winning_tune.mp3");
 }
 
 // The set up function that will only run once 
@@ -368,9 +370,13 @@ function draw() {
                             score_add_allow_5 = false;
                             if (Player1_score > Player2_score) {
                                 player_1_end_screen()
+                                mySound.setVolume(0.5);
+                                mySound.play();
                             }
                             if (Player2_score > Player1_score) {
                                 player_2_end_screen()
+                                mySound.setVolume(0.5);
+                                mySound.play();
                             }
                         } else{
                             level_5()
